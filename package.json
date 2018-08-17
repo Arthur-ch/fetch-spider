@@ -1,0 +1,25 @@
+{
+  "name": "fetch-spider",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "fetch-spider": "./index.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "delay": "^3.0.0",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "node-fetch": "^2.2.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.17.1",
+    "yargs": "^12.0.1"
+  }
+}
